@@ -1,0 +1,20 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+var x int
+
+func main() {
+	fmt.Println("Insira um número: ")
+	fmt.Scan(x)
+	if x > 0 {
+		fmt.Println("POSITIVO")
+
+	} else if x < 0 {
+		fmt.Println("NEGATIVO")
+	} else {
+		fmt.Println("NULO")
+	}
+}
