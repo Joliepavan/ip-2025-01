@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+var soma int
+
+func main() {
+	i := 1
+	for i <= 100 {
+		fmt.Println(i)
+		i++
+		soma = soma + i
+	}
+	fmt.Println(soma)
+
+}
