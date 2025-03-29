@@ -1,0 +1,17 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+var x int
+
+func main() {
+	fmt.Println("Insina um número: ")
+	fmt.Scan(x)
+	if x > 20 && x < 90 {
+		fmt.Println("O número está compreendido entre 20 e 90")
+	} else {
+		fmt.Println("O número não está compreendido entre 20 e 90")
+	}
+}
