@@ -1,0 +1,21 @@
+package main 
+
+import "fmt"
+
+func main () {
+	var soma,media int
+	var notas,alunos float64
+	fmt.Println("INSIRA A QUANTIDADE DE ALUNOS \n")
+	fmt.Scan(&alunos)
+	for (i>=1; i<=alunos,i++){
+		fmt.Println("INSIRA AS NOTAS %d:", i+1)
+		fmt.Scan(&notas)
+		soma+=notas
+       
+	}
+	media:=soma/float64(alunos)
+	fmt.Printf("A MEDIA GLOBAL É: %.2f\n",media)
+
+	}
+
+}
