@@ -16,8 +16,12 @@ int main() {
     } else if (K>=10 && K<60){
      M= K;
      cout << H << ":" << M;
+    } else if (K>=61 && K<=70){
+     H=22;
+     M= K-60;
+     cout << H << ":" << "0" << M;
     } else {
-     H=H+1;
+     H=22;
      M= K-60;
      cout << H << ":" << M;
     }
