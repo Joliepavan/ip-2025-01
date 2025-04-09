@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <string>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ int main() {
         }
     }
 
-    cout << resultado << endl;
+    cout << resultado;
 
     return 0;
 }
