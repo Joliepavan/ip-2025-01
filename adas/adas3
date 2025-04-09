@@ -9,19 +9,16 @@ int main (){
 
  cin >> J;
  
- for(int i=0; i<=J; i++){
- vector < char > p;
+ for(int i=0; i<J; i++){
+ string p;
  cin >> S;
   for (int i=0; i<S.size()-2;i++){
     p.push_back(S[i]);
   }
- 
-
-p.push_back('i');
-
-  for (int i=0; i<p.size();i++){
-    cout << p[i];
-  }
+  p.push_back('i');
+  cout << p << "\n";
  }
+
+
     return 0;
 }
