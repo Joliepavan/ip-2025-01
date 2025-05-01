@@ -1,0 +1,49 @@
+body {
+    font-family:American Typewriter, serif;
+    font:American Typewriter;
+    background-color: #eabeff;
+    color:#fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family:American Typewriter, serif;
+    font:American Typewriter;
+    color:rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-family:fantasy;
+    font:fantasy;
+    color:#c482d8;
+}
+
+h3{
+    text-decoration:underline;
+}
+
+button {
+    background-color: #c482d8;
+    border: none;
+    padding: .5rem .8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    &:hover{
+        transform: scale(1.1);
+        transition: all .3s ease-in-out;
+        background-color: #b262ca;
+    }
+}
+
+a{
+    color:#9325b4;
+}
+
+img{
+    border-radius: 8px;
+}
+
